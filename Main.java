@@ -4,6 +4,8 @@ public class Main{
 		int a = 10; int b = 20;
 		ArithmeticOperations op = new ArithmeticOperations(a,b);
 		op.addNumbers();
+		op.subNumbers();
+		op.multiplyNumbers();
 		
 	}
 }
