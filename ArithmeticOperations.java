@@ -7,6 +7,16 @@ public class ArithmeticOperations{
 	
 	public void addNumbers(){
 		int result = a+b;
-		System.out.println("a :"+ a+" b :"+b+ " is : "+result);
+		System.out.println("The sum of a :"+ a+" b :"+b+ " is : "+result);
+	}
+
+	public void subNumbers(){
+		int result = a-b;
+		System.out.println("The sub of a :"+ a+" b :"+b+ " is : "+result);
+	}
+
+	public void multiplyNumbers(){
+		int result = a*b;
+		System.out.println("The multiplication of a :"+ a+" b :"+b+ " is : "+result);
 	}
 }
